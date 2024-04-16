@@ -1,11 +1,8 @@
 <nav class="navbar">
-    <!-- Logo y título -->
     <div class="navbar-logo">
         <img src="\assets\img\logo.png" alt="Logo INNOVATECH">
-        <!-- <span>INNOVATECH</span> -->
     </div>
 
-    <!-- Enlaces de navegación -->
     <ul class="navbar-nav">
         <li><a (click)="home()" routerLinkActive="active">Inicio</a></li>
         <li><a (click)="services()">Nuestros Servicios</a></li>
@@ -16,15 +13,11 @@
     <div class="user-options">
         <div class="user-icon" (click)="toggleSidebar()">
             <img src="\assets\icon\user.svg" alt="Usuario">
-            <!-- Sidebar opcional para mostrar más opciones de usuario -->
             <div class="sidebar" *ngIf="showSidebar">
-                <!-- Opciones adicionales del usuario -->
-                <!-- Ejemplo: <a routerLink="/perfil">Perfil</a> -->
+
             </div>
         </div>
 
-        <!-- Botón de cerrar sesión -->
         <button class="button-primary" (click)="logout()">Cerrar Sesión</button>
-        <!-- Ajusta el evento y la función según tu lógica de cierre de sesión -->
     </div>
 </nav>
