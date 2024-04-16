@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FooterComponent } from '../footer/footer.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-register',
@@ -9,5 +10,15 @@ import { FooterComponent } from '../footer/footer.component';
   styleUrl: './register.component.css'
 })
 export class RegisterComponent {
+
+  constructor(private router: Router) { }
+
+  register() {
+    this.router.navigate(['/home']);
+  }
+
+  login() {
+    this.router.navigate(['/login']);
+  }
 
 }

@@ -17,6 +17,14 @@ export class NavbarComponent {
     this.router.navigate(['/login']);
   }
 
+  services() {
+    this.router.navigate(['/our-services']);
+  }
+
+  home() {
+    this.router.navigate(['/']);
+  }
+
   toggleSidebar() {
     this.showSidebar = !this.showSidebar;
   }

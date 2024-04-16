@@ -28,8 +28,8 @@
             <input class="controls" type="password" name="contraseña" id="contraseña"
                 placeholder="Ingrese su contraseña">
         </label>
-        <input class="botons" type="submit" value="Registrar">
-        <p>¿Ya tienes una cuenta?<a href="#"> Inicar sesión </a></p>
+        <input class="botons" type="submit" (click)="register()" value="Registrar">
+        <p>¿Ya tienes una cuenta?<a (click)="login()"> Inicar sesión </a></p>
 
     </section>
 
