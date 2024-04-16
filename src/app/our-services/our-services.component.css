@@ -9,6 +9,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 20px;
+    padding: 50px 30px 30px 15px;
 }
 
 .banner {
@@ -50,9 +51,10 @@ body {
     display: block;
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #000000;
     color: white;
     text-decoration: none;
+    border-radius: 10px;
 }
 
 .descuento {
