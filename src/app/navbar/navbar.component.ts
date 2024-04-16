@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -10,8 +11,10 @@ import { Component } from '@angular/core';
 export class NavbarComponent {
   showSidebar: boolean = false;
 
+  constructor(private router: Router) { }
+
   logout() {
-    // Aquí va la lógica para cerrar sesión
+    this.router.navigate(['/login']);
   }
 
   toggleSidebar() {
