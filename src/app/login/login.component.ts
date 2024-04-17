@@ -14,10 +14,12 @@ export class LoginComponent {
   constructor(private router: Router) { }
 
   login() {
+    // Redirecion a los otros componentes
     this.router.navigate(['/home']);
   }
 
   register(){
+
     this.router.navigate(['/register']);
   }
 

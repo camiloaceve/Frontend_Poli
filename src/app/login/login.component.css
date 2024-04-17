@@ -1,99 +1,96 @@
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    background: #000;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Establece el modelo de caja border-box */
+  list-style: none; /* Elimina los estilos de lista por defecto */
+  background: #000; /* Fondo negro */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Fuente predeterminada */
+}
 
-  }
+.container-titulo {
+  display: flex; /* Establece el contenedor de título como un flexbox */
+  flex-direction: row; /* Dirección de los elementos del flexbox: horizontal */
+  justify-content: flex-start; /* Alineación de los elementos al inicio */
+  margin: 0 auto; /* Margen automático horizontal */
+  width: 800px; /* Ancho fijo */
+}
 
-  .container-titulo {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin: 0 auto;
-    width: 800px;
-  }
+h1 {
+  text-align: center; /* Alineación del texto al centro */
+  padding: 15px; /* Espaciado interno */
+  color: white; /* Color del texto */
+  font-size: 5rem; /* Tamaño de fuente */
+}
 
-  h1 {
-    text-align: center;
-    padding: 15px;
-    color: white;
-    font-size: 5rem;
-  }
+.logo {
+  width: 200px; /* Ancho de la imagen del logo */
+}
 
-  .logo {
-    width: 200px;
+.form-register {
+  width: 400px; /* Ancho del formulario */
+  height: 450px; /* Altura del formulario */
+  margin: 0 auto; /* Margen automático */
+  border-radius: 10px; /* Bordes redondeados */
+  color: white; /* Color del texto */
+}
 
-  }
+.form-register h2 {
+  font-size: 30px; /* Tamaño de fuente para el encabezado */
+  margin-bottom: 20px; /* Margen inferior */
+}
 
-  .form-register {
-    width: 400px;
-    height: 450px;
-    margin: 0 auto;
-    border-radius: 10px;
-    color: white;
-  }
+.form-register label {
+  font-size: 16px; /* Tamaño de fuente para las etiquetas */
+  padding: 10px; /* Espaciado interno */
+  margin: 20px; /* Margen externo */
+}
 
-  .form-register h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-  }
+.controls {
+  width: 100%; /* Ancho completo */
+  background: #F8F807; /* Color de fondo */
+  padding: 15px 5px; /* Espaciado interno */
+  border-radius: 20px; /* Bordes redondeados */
+  margin-bottom: 5px; /* Margen inferior */
+  border: 1px solid #000; /* Borde sólido */
+  font-size: 18px; /* Tamaño de fuente */
+}
 
-  .form-register label {
-    font-size: 16px;
-    padding: 10px;
-    margin: 20px;
-  }
+.controls::placeholder {
+  color: #323232; /* Color del marcador de posición */
+  padding-left: 10px; /* Espaciado izquierdo */
+}
 
-  .controls {
-    width: 100%;
-    background: #F8F807;
-    padding: 15px 5px;
-    border-radius: 20px;
-    margin-bottom: 5px;
-    border: 1px solid #000;
-    font-size: 18px;
-  }
+.form-register p {
+  height: 40px; /* Altura fija para el párrafo */
+  text-align: center; /* Alineación del texto al centro */
+  font-size: 18px; /* Tamaño de fuente */
+}
 
-  .controls::placeholder{
-    color: #323232;
-    padding-left: 10px;
-  }
+.form-register a {
+  color: white; /* Color del enlace */
+  text-decoration: none; /* Sin decoración de texto */
+}
 
-  .form-register p {
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-  }
+.form-register a:hover {
+  color: white; /* Color del enlace al pasar el cursor */
+  text-decoration: underline; /* Subrayado del enlace al pasar el cursor */
+}
 
-  .form-register a {
-    color: white;
-    text-decoration: none;
-  }
+.botons {
+  width: 100%; /* Ancho completo */
+  background: #F8F807; /* Color de fondo */
+  border-radius: 30px; /* Bordes redondeados */
+  border: none; /* Sin borde */
+  color: #000; /* Color del texto */
+  margin: 16px 0; /* Margen superior e inferior */
+  font-size: 16px; /* Tamaño de fuente */
+  padding: 10px; /* Espaciado interno */
+  font-weight: bold; /* Peso de la fuente */
+  cursor: pointer; /* Cursor al pasar el ratón */
+  text-decoration: underline; /* Subrayado del texto */
+}
 
-  .form-register a:hover {
-    color: white;
-    text-decoration: underline;
-  }
-
-  .botons {
-    width: 100%;
-    background: #F8F807;
-    border-radius: 30px;
-    border: none;
-    color: #000;
-    margin: 16px 0;
-    font-size: 16px;
-    padding: 10px;
-    font-weight: bold;
-    cursor: pointer;
-    text-decoration: underline;
-  }
-
-
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+.container {
+  max-width: 1200px; /* Ancho máximo del contenedor */
+  margin: 0 auto; /* Margen automático */
+}

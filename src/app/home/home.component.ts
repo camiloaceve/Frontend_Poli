@@ -18,7 +18,8 @@ export class HomeComponent {
   constructor(private router: Router) { }
 
   services() {
-    this.router.navigate(['/our-services']);
+    // Redirecion a los otros componentes
+    this.router.navigate(['/our-services']); 
   }
 
 }

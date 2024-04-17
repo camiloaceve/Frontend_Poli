@@ -1,23 +1,33 @@
 <nav class="navbar">
+    <!-- Logo de la empresa -->
     <div class="navbar-logo">
         <img src="\assets\img\logo.png" alt="Logo INNOVATECH">
     </div>
 
+    <!-- Lista de elementos de navegación -->
     <ul class="navbar-nav">
+        <!-- Elemento de navegación para la página de inicio -->
         <li><a (click)="home()" routerLinkActive="active">Inicio</a></li>
+        <!-- Elemento de navegación para la página de servicios -->
         <li><a (click)="services()">Nuestros Servicios</a></li>
+        <!-- Elemento de navegación para la página de reseñas -->
         <li><a routerLink="/resenas" routerLinkActive="active">Reseñas</a></li>
+        <!-- Elemento de navegación para la página de contacto -->
         <li><a (click)="contact()" routerLinkActive="active">Contacto</a></li>
     </ul>
 
+    <!-- Opciones de usuario -->
     <div class="user-options">
+        <!-- Icono de usuario con funcionalidad para mostrar un menú lateral -->
         <div class="user-icon" (click)="toggleSidebar()">
             <img src="\assets\icon\user.svg" alt="Usuario">
+            <!-- Menú lateral que se muestra al hacer clic en el icono de usuario -->
             <div class="sidebar" *ngIf="showSidebar">
 
             </div>
         </div>
 
+        <!-- Botón para cerrar sesión -->
         <button class="button-primary" (click)="logout()">Cerrar Sesión</button>
     </div>
 </nav>

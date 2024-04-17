@@ -1,3 +1,4 @@
+/* Reset de estilos */
 body {
     margin: 0;
     padding: 0;
@@ -6,6 +7,7 @@ body {
     color: #fff;
 }
 
+/* Estilos de la página */
 .container {
     max-width: 800px;
     margin: 140px auto 0 auto;
@@ -13,6 +15,7 @@ body {
     justify-content: space-between;
 }
 
+/* Estilos de la sección de información de contacto */
 .contact-info {
     flex: 1;
     color: #fff;
@@ -20,16 +23,19 @@ body {
     margin-right: 10px;
 }
 
+/* Estilos del encabezado de la sección de información de contacto */
 .contact-info h1 {
     color: #eefb03;
 }
 
+/* Estilos de la sección del formulario de contacto */
 .contact-form {
     flex: 1;
     padding: 20px;
     margin-left: 10px;
 }
 
+/* Estilos de los campos de entrada y área de texto del formulario */
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form input[type="tel"],
@@ -43,10 +49,12 @@ body {
     color: #fff;
 }
 
+/* Estilos específicos para el área de texto del formulario */
 .contact-form textarea {
     height: 100px;
 }
 
+/* Estilos del botón de envío del formulario */
 .contact-form button {
     width: 50%;
     padding: 10px;
@@ -55,8 +63,10 @@ body {
     background-color: #eefb03;
     color: #000;
     cursor: pointer;
-    justify-self: flex-start}
+    justify-self: flex-start
+}
 
+/* Estilos al pasar el cursor sobre el botón de envío */
 .contact-form button:hover {
     background-color: #eefb03;
 }
