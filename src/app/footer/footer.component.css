@@ -7,7 +7,7 @@ body {
 }
 
 .footer {
-  background-color: yellow;
+  background-color: #eefb03;
   padding: 20px 0;
   display: flex;
   flex-direction: row;
@@ -25,7 +25,7 @@ body {
   font-size: 22px;
   color: #000;
   font-weight: bold;
-  border-bottom: 2px #F8F807 solid;
+  border-bottom: 2px #eefb03 solid;
   padding-bottom: 10px;
 
 }

@@ -59,6 +59,8 @@ body {
 
 .descuento {
     text-align: center;
-    font-size: 16px;
-    margin-top: 20px;
+    font-size: 27px;
+    margin-top: 25px;
+    background-color: #eefb03;
+    border-radius: 14px
 }

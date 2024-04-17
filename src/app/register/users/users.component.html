@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar/Editar Usuario</title>
+</head>
+<app-navbar></app-navbar>
+
+<body>
+    <div class="container">
+        <h1 class="title">REGISTRAR/EDITAR USUARIO</h1>
+        <div class="user-info">
+            <div class="info-horizontal">
+                <input type="text" placeholder="Nombre Completo" required>
+                <input type="email" placeholder="Correo Electrónico" required>
+            </div>
+            <div class="info-horizontal">
+                <input type="password" placeholder="Contraseña" required>
+                <div class="role">
+                    <label for="role">Rol:</label>
+                    <select id="role">
+                        <option value="Visualizador">Visualizador</option>
+                        <option value="Administrador">Administrador</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="save">Guardar</button>
+            <button class="cancel">Cancelar</button>
+        </div>
+    </div>
+    <app-footer></app-footer>
+</body>
+
+</html>

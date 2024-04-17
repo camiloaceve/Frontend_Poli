@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 150px auto;
+    padding: 30px;
+}
+
+.title {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 40px;
+    color: #eefb03;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-horizontal {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.info-horizontal input,
+.info-horizontal select {
+    width: 83%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.info-horizontal .role {
+    width: 100%;
+}
+
+.info-horizontal:first-child input {
+    margin-right: 5%;
+}
+
+.info-horizontal:last-child input {
+    margin-right: 5%;
+}
+
+.info-horizontal:first-child {
+    justify-content: flex-start;
+}
+
+.info-horizontal:last-child {
+    justify-content: flex-end;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.buttons button {
+    padding: 15px 30px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #eefb03;
+    color: #000;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #eefb03;
+}
